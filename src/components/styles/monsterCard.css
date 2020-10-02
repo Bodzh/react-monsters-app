@@ -1,0 +1,18 @@
+.app-monster-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    background-color: aqua;
+    transition: transform 0.1s;
+}
+
+.app-monster-card:hover {
+   transform: scale(1.1);
+}
+
+.app-monster-card__img {
+    max-width: 180px;
+}
